@@ -107,9 +107,8 @@ Detailed documentation is available in [API.md](file:///Users/sabari07/Developer
 | `POST` | `/api/pastes` | Create a snippet |
 | `GET` | `/api/pastes` | List public snippets |
 | `GET` | `/api/pastes/:id` | Fetch paste details and content |
-| `GET` | `/api/pastes/:id/raw` | Get raw plaintext snippet |
 | `DELETE` | `/api/pastes/:id` | Delete paste using token |
-| `GET` | `/api/health` | Health check endpoint |
+
 
 ---
 
