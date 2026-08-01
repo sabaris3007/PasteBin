@@ -37,7 +37,7 @@ COPY --from=client-builder /app/client/dist ./client/dist
 EXPOSE 4000
 
 # Create volume mount directory for SQLite persistence
-VOLUME [ "/app/data" ]
+#VOLUME [ "/app/data" ]
 
 # Healthcheck
 HEALTHCHECK --interval=30s --timeout=5s --start-period=5s --retries=3 \
