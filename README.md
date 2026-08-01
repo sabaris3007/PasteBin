@@ -13,7 +13,6 @@ A lightweight snippet sharing platform built with **Express (TypeScript)**, **Re
   - **Unlisted Pastes**: Hide pastes from the public Explore list.
   - **Secret Deletion Token**: Delete your paste anytime using a secret token.
 - **Expiration Timers**: Automatically expire pastes (10m, 1h, 1d, 1w, 1m, or never).
-- **Raw Text Endpoint**: Direct `/api/pastes/:id/raw` endpoint for cURL / terminal piping.
 - **Dual Clients**:
   1. **Web App**: Clean white and emerald user interface.
   2. **CLI Client (`bin/pastebin`)**: Pipe text straight from your shell (`cat file.js | ./bin/pastebin`).
@@ -100,7 +99,7 @@ cat server/src/index.ts | ./bin/pastebin --title "Server Entry" --lang javascrip
 
 ## API Reference Overview
 
-Detailed documentation is available in [API.md](file:///Users/sabari07/Developer/DevsTechnical/API.md) and the in-app **API Docs** tab.
+Detailed documentation is available in the in-app **API Docs** tab.
 
 | Method | Endpoint | Description |
 | :--- | :--- | :--- |
