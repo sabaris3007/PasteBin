@@ -64,6 +64,8 @@ export const PasteList: React.FC<PasteListProps> = ({ onSelectPaste }) => {
           <h2 style={{ fontSize: '1.3rem', fontWeight: 700 }}>Explore Public Snippets</h2>
           <p className="text-muted" style={{ fontSize: '0.875rem' }}>
             Discover public pastes and code snippets shared by the community.
+            <br />
+            Password-protected snippets are not displayed here.
           </p>
         </div>
 
