@@ -1,7 +1,7 @@
 {
   "name": "pastebin-platform",
   "version": "1.0.0",
-  "description": "A modern, developer-friendly snippet sharing platform with white & green aesthetic.",
+  "description": "A lightweight snippet sharing platform built with Express, React, and SQLite.",
   "scripts": {
     "install:all": "npm install && npm install --prefix server && npm install --prefix client",
     "dev:server": "npm run dev --prefix server",
@@ -11,10 +11,23 @@
     "start": "node server/dist/index.js",
     "test": "npm test --prefix server"
   },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/better-sqlite3": "^7.6.11",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.9",
+    "concurrently": "^8.2.2",
+    "typescript": "^5.5.2"
+  },
   "keywords": ["pastebin", "code-sharing", "snippets", "express", "react"],
   "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "concurrently": "^8.2.2"
-  }
+  "license": "MIT"
 }
